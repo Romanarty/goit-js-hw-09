@@ -1,0 +1,51 @@
+body {
+    background: #363f48;
+    color: white;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.target-date {
+    margin-top: 15%;
+}
+
+.target-date h3 {
+    font-size: 30px;
+}
+
+.timer {
+    justify-content: center;
+    min-height: 20vh;
+}
+
+.field {
+    margin-right: 25px;
+    height: auto;
+}
+
+.field:last-child {
+    margin-right: 0px;
+}
+
+.value {
+    font-size: 80px;
+    font-weight: 300px;
+    line-height: 80px;
+}
+
+.label {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 70px;
+    color: #a7abb1;
+    margin-left: 5px;
+}
